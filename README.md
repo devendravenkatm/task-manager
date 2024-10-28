@@ -17,7 +17,7 @@ The **Task Mate** is a simple yet powerful web application developed using the M
 - **Front-End**: Angular (Angular CLI), HTML, CSS
 - **Back-End**: Node.js, Express.js
 - **Database**: MongoDB
-- **Other**: Mongoose (for MongoDB object modeling)
+- **Other**: Mongoose (for MongoDB object modeling), jwt for authentication
 
 ## Installation
 
