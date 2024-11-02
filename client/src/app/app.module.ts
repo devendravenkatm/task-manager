@@ -19,7 +19,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatListModule } from '@angular/material/list';
-import { MatDatepickerModule } from '@angular/material/datepicker'; // Add this import for the date picker
+import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
@@ -70,11 +70,11 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
     MatNativeDateModule,
     MatDialogModule,
     MatListModule,
-    MatDatepickerModule,  // Ensure this line is present
+    MatDatepickerModule,
     MatSelectModule,
     MatSnackBarModule,
     MatProgressSpinnerModule,
-    AppRoutingModule // Import the routing module
+    AppRoutingModule
   ],
   providers: [
     provideHttpClient(),
